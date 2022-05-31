@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="style/dropdown.css">
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Frontend</title>
+</head>
+<body>
+
+<!-- header top -->
+<div class="header-top">
+  <ul>
+    <li><a href="https://www.youtube.com" target="_blank" onclick="preventProp()"><i class="fa fa-youtube-play"></i></a>
+    </li>
+    <li><a href="https://www.twitter.com" target="_blank" onclick="preventProp()"><i class="fa fa-twitter"></i></a>
+    </li>
+    <li><a href="https://www.linkedin.com" target="_blank" onclick="preventProp()"><i class="fa fa-linkedin"></i></a>
+    </li>
+    <li><a href="#">Logout</a>
+    </li>
+    <li><a href="#">My Dashboard</a>
+    </li>
+  </ul>
+</div>
+<!-- end of header top -->
+
+<!-- header menu -->
+<div class="header-nav">
+  <img class="logo" src="https://i.imgur.com/9fx89Br.png">
+  <ul class="hover-underline-animation">
+    <li><a href="#">Products</a>
+    </li>
+    <li><a href="#">Safety Tools</a>
+    </li>
+    <li><a href="#">Training</a>
+    </li>
+    <li><a href="#">Engagement</a>
+    </li>
+    <li>
+      <a href="#" onclick="myFunction()" class="dropbtn">Membership</a>
+        <div id="myDropdown" class="dropdown-content">
+            <table>
+              <tr>
+                <td class="border-right-submenu"><a href="#">Latest News</a></td>
+                <td class="border-right-submenu"><a href="#">Subscribe to<br> Newsletters</a></td>
+                <td class="border-right-submenu"><a href="#">Videos</a></td>
+                <td><a href="#">Publications</a></td>
+              </tr>
+            </table>
+            <div class=center align='center'>
+              <i class="fa fa-close" style="color: #fff"></i>
+            </div>
+        </div>
+    </li>
+    <li><a href="#">News</a>
+    </li>
+    <li><a href="#">About</a>
+    </li>
+  </ul>
+</div>
+<!-- end of header menu -->
+
+<!-- blank space -->
+<div class="content-div"></div>
+<!-- end of blank soace -->
+
+<script type="text/javascript" src="main.js"></script>
+
+</body>
+</html>
+
+
+

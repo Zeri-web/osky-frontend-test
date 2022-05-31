@@ -1,0 +1,112 @@
+/*global*/
+body{
+  margin: 8px 0;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 17px;
+}
+/*---*/
+
+/*header top*/
+.header-top{ 
+    right: 0px;
+    padding-top: 40px;
+    height: 10px;
+    background-color: #fff;
+    width: 79%;
+    display: flex;
+    justify-content: right;
+    z-index:5;
+}
+.header-top ul li a {
+  text-decoration: none;
+  padding: 0px 13px;
+  padding-right: 15px;
+  display: block;
+  color: #00AEEF;
+  text-align: center;
+}
+.header-top i{
+  font-size: 20px;
+  color: #00AEEF;
+  margin-right: 5px;
+  padding: 0px 0px;
+}
+/*---*/
+
+/*header menu*/
+.header-nav {
+    left: 0px;
+    height: 40px;
+    padding-top: 30px;
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+ul li {
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+.header-nav ul li a {
+  text-decoration: none;
+  padding: 10px 20px;
+  display: block;
+  color: #000;
+  text-align: center;
+}
+.logo{
+height: 200%;
+width: 10%;
+padding-right: 80px;
+margin-top: -38px;
+}
+/*---*/
+
+/*blank space*/
+.content-div {
+  background-color: #00AEEF;  
+  width:100%;
+  margin-top: 20px;
+  height:145px;
+}
+/*---*/
+
+/*link hover*/
+.hover-underline-animation a {
+  display: inline-block;
+  position: relative;
+  color: #00AEEF;
+}
+
+.hover-underline-animation a:focus {
+  color: #00AEEF;
+}
+
+.hover-underline-animation a:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 4px;
+  bottom: -5px;
+  left: 0;
+  background-color: #00AEEF;
+  transform-origin: bottom right;
+}
+.hover-underline-animation a:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+a:hover, a:focus, a:active {
+    color: #00AEEF;
+    text-decoration: none;
+/*---*/
